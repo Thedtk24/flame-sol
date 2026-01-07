@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -g -I C_utils/include
+CFLAGS = -Wall -Wextra -g -I C_utils/include -fopenmp
 SRC = main.c C_utils/src/cMatrix.c
 OBJ = $(SRC:.c=.o)
 TARGET = solution
